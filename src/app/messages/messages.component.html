@@ -1,0 +1,9 @@
+<p>messages works!</p>
+<button (click)="toggle()">Toggle</button>
+<div *ngIf="toggleBtn">
+  <h5>Display on click</h5>
+</div>
+<p *ngIf="message">
+  {{ message.message }}
+</p>
+<app-form></app-form>
